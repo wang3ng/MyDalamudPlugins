@@ -1,29 +1,15 @@
 [
   {
-    "Author": "yomishino",
-    "Name": "ActionEffectRange",
-    "InternalName": "ActionEffectRange",
-    "AssemblyVersion": "2.0.1.1",
-    "Description": "This plugin provides a visual cue on the effect range of the AoE action you just used.\n\nMay be used as a supplement/replacement to the actions' VFXs in showing effect range related information, such as where has the action landed and how large an area it covered.",
-    "CategoryTags": [
-      "UI"
-    ],
-    "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/yomishino/FFXIVActionEffectRange",
-    "DalamudApiLevel": 9,
-    "LoadRequiredState": 0,
-    "LoadSync": false,
-    "LoadPriority": 0,
-    "Punchline": "Provides a visual cue on the effect range of the AoE action just used.",
-    "Changelog": "Update: Dalamud API9 compatibility",
-    "ImageUrls": null,
-    "IconUrl": "",
-    "IsHide": "False",
-    "IsTestingExclusive": "False",
-    "DownloadCount": 0,
-    "LastUpdate": "1699768941",
-    "DownloadLinkInstall": "https://github.com/yomishino/MyDalamudPlugins/raw/main/plugins/ActionEffectRange/latest.zip",
-    "DownloadLinkTesting": "https://github.com/yomishino/MyDalamudPlugins/raw/main/plugins/ActionEffectRange/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/yomishino/MyDalamudPlugins/raw/main/plugins/ActionEffectRange/latest.zip"
+  "Author": "Chivalrik",
+  "Name": "GentleTouch",
+  "InternalName": "GentleTouch",
+  "AssemblyVersion": "1.5.0",
+  "Description": "You need to configure patterns and triggers before it will work, \nopen the configuration window to do that. \nDS5 is currently unsupported. \nCurrently supported triggers are:\n- Cooldowns\n- Near Aether Current",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/fitzchivalrik/gentletouch",
+  "DalamudApiLevel": 6,
+  "LoadPriority": 0,
+  "Punchline": "Create vibration patterns for the controller and specify triggers to make it vibrate.",
+  "Changelog": "- Update to API 6\n- Reworked charged abilities, those trigger now _only_ on first charge (instead of last as previous)."
   }
 ]
